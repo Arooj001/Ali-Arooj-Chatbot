@@ -12,8 +12,8 @@ import textwrap
 
 import google.generativeai as genai
 
-from IPython.display import display
-from IPython.display import Markdown
+#from IPython.display import display
+#from IPython.display import Markdown
 
 
 def to_markdown(text):
@@ -34,7 +34,7 @@ def get_gemini_response(question):
 
 st.set_page_config(page_title="Q&A Demo")
 
-st.header("A-A Chatbot")
+st.header("QA Chatbot By Ali & Arooj")
 
 input=st.text_input("Input: ",key="input")
 
